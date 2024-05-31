@@ -61,7 +61,6 @@ public class RestExceptionHandler {
                 forStatusAndDetail(HttpStatus.NOT_FOUND,"El recurso no ha sido encontrado");
     }
 
-
     /**
      * Exception personalizado cuando el formato de
      * cuenta no es correcto

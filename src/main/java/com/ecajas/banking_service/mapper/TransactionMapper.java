@@ -14,7 +14,7 @@ import java.util.List;
 
 @Component
 @AllArgsConstructor
-public class TrasactionMapper {
+public class TransactionMapper {
 
     private final ModelMapper modelMapper;
     public Transaction convertToEntity(TransactionRequestDTO transactionDTO) {
